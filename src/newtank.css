@@ -1,0 +1,20 @@
+.oil-tank {
+    width: 100px;
+    height: 150px;
+    border: 2px solid grey;
+    position: relative;
+    
+    margin: 0 auto;
+  }
+
+  .oil-level {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#fdf4b4, #f4d88c, #e6b064, #d89a3c, #c17c19, #a65e00, #8b4400, #663300, #401f00, #1a0c00);
+    transition: height 0.5s ease;
+  }
+  
+
+  
